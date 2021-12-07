@@ -1,4 +1,4 @@
-x = (1,2,3)
+x = (1,2,3,) #Las tuplas no soportan ambios
 
-y = tuple((1,2,3))
-print(dir(x))
+del x #eliminar una tupla
+print(x)
