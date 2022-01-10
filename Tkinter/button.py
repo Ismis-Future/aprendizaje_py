@@ -10,11 +10,11 @@ class Test():
 
         #creaos una etiqueta
         #con textvariable indicamos cual es la variable que tendra el texto del boton
-        lblEtiqueta= tk.Label(self.ventana, textvariable=self.texto, font='arial 24')
+        lblEtiqueta= tk.Label(self.ventana, textvariable=self.texto, font='arial 24').pack()
 
         #crear boton
 
-        btnMiBoton = tk.Button(self.ventana, text="Haz mensaje", font='arial 24', command=self.changeText).pack()
+        btnMiBoton = tk.Button(self.ventana, text="Haz mensaje", font='arial 24', command=self.changeText()).pack()
 
 
         self.ventana.mainloop()
